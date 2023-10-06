@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+header{
+    background-color: #1F2235;
+    padding: 50px;
+}
+.horizontal{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.nav-item{
+    list-style: none;
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.brand img{
+    width: 100px;
+}
+
+.nav-item a{
+    text-decoration: none;
+    font-weight: 20px;
+    font-size: 500;
+    color: #FFFFFF;
+}   
+
+#home{
+    background-color:#24263B;
+}
+
+.Home{
+    padding: 160px;
+}
+
+.fa-facebook{
+    font-size:  x-large;
+}
+
+.fa-twitter{
+    font-size:  x-large;
+    margin-left: 15px;
+}
+
+.fa-border-radius{
+    --fa-border-radius: 70px;
+    --fa-border-color: #FF4A57;
+}
+
+.fa-pinterest{
+    font-size:  x-large;
+    margin-left: 15px;
+}
+
+.fa-instagram{
+    font-size:  x-large;
+    margin-left: 15px;
+}
+
+.fa-behance{
+    font-size: x-large;
+    margin-left: 15px;
+}
+.fa-pinterest:hover{
+    background-color: #FF4A57;
+}
+
+.fa-instagram:hover{
+    background-color: #FF4A57;
+}
+
+.fa-behance:hover{
+    background-color: #FF4A57;
+}
+.fa-twitter:hover{
+    background-color: #FF4A57;
+}
+
+.fa-facebook:hover{
+    background-color: #FF4A57;
+}
+
+.button2{
+    background-color: #24263B;
+    border-radius: 35px;
+    border-color: #FF4A57;
+    font-size: x-large;
+}
+
+.btn{
+    background-color: #FF4A57;
+    border-radius: 20px;
+    margin-left: 20px;
+    line-height: 20px;
+    width: 15%;
+    height: 30px;
+}
+
+.button2:hover{
+    background-color: #FF4A57;
+}
+
+#Services{
+    background-color: #1F2235;
+}
+
+.card{
+    background-color: #23263A;
+    border-radius: 20px;
+    height: 300px;
+    text-align: left;
+    margin-right: 0.5px;
+    width: 75%;
+    margin-bottom: 6%;
+    padding-top: 10%;
+    padding-left: 10%;
+    margin-left: 10%;
+    align-items: center;
+
+}
+
+
+.service{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900px;
+}
+
+.srs{
+    text-align: center;
+}
+
+.pa{
+    text-align: center;
+}
+
+hr{
+    border-color: #FF4A57;
+    width: 5%;
+    margin: auto;
+    height: 1.7px;
+}
+
+.fa-github{
+    font-size: 40px;
+    padding-bottom: 5%;
+    color: #FF4A57;
+}
+.fa-codepen{
+    font-size: 40px;
+    padding-bottom: 5%;
+    color: #FF4A57;
+}
+.fa-file-video{
+    font-size: 40px;
+    padding-bottom: 5%;
+    color: #FF4A57;
+}
+.fa-camera{
+    font-size: 40px;
+    padding-bottom: 5%;
+    color: #FF4A57;
+}
+.fa-apple{
+    font-size: 40px;
+    padding-bottom: 5%;
+    color: #FF4A57;
+}
+.fa-yoast{
+    font-size: 40px;
+    padding-bottom: 5%;
+    color: #FF4A57;
+}
+
+h3{
+    color: #FF4A57;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 30% 30% 30%; 
+    align-items: center ;
+    justify-content: center;
+}
+
+
